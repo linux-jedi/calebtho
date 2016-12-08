@@ -10,9 +10,16 @@
 		@include icon;
 		border-bottom: none;
 		position: relative;
-		font-size: 5em;
 
 		> .label {
 			display: none;
 		}
 	}
+
+	.personal-icon {
+		@extend .icon;
+		margin: 10px;
+		font-size: 5em;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	}
+
